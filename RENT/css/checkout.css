@@ -1,0 +1,192 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 1rem;
+    z-index: 1000;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #333;
+    width: 24px;
+    height: 3px;
+    display: block;
+    margin: 5px auto;
+    border-radius: 2px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #555;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .icon a {
+    color: #555;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  
+  .icon a:hover {
+    color: #007bff;
+  }
+  
+  /* Search Form */
+  .search-input {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+  }
+  
+  .btn-search {
+    border-radius: 20px;
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-search:hover {
+    background-color: #218838;
+  }
+  
+  /* Checkout Orders Section */
+  .checkout-orders {
+    margin: 5rem 1rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .display-order {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    background: #fff;
+    margin-bottom: 2rem;
+  }
+  
+  .display-order p {
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .names span {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .wishlist-total p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .empty {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
+  /* Input Fields */
+  .inputBox {
+    margin-bottom: 1rem;
+  }
+  
+  .inputBox span {
+    display: block;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .inputBox input,
+  .inputBox select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .inputBox input:focus,
+  .inputBox select:focus {
+    border-color: #007bff;
+  }
+  
+  /* Flex Container */
+  .flex {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  /* Button Styling */
+  .btns {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 1rem;
+    background-color: #007bff;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .btns:hover {
+    background-color: #0056b3;
+  }
+  
+  .disabled {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  
+  
